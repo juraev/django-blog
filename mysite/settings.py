@@ -82,8 +82,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blog',
-        'USER': 'jack',
-        'PASSWORD': '16729438',
+        'USER': 'user',
+        'PASSWORD': '"',
     }
 }
 
@@ -109,6 +109,6 @@ STATIC_URL = '/static/'
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'kh.j.jack@gmail.com'
-EMAIL_HOST_PASSWORD = '16729438jack'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
